@@ -25,11 +25,27 @@
     <main id="main-features">
       <section id="features" class="page__sections">
         <h2>Funkcje i korzyści</h2>
-        <ul>
-          <li>Funkcja 1</li>
-          <li>Funkcja 2</li>
-          <li>Funkcja 3</li>
-        </ul>
+        <div class="feature">
+          <img src="images/icon-communities.svg" alt="Ikona społeczności" />
+          <h3>Buduj aktywne społeczności</h3>
+          <p>Twórz i zarządzaj społecznościami, które angażują Twoich fanów i klientów.</p>
+        </div>
+        
+        <div class="feature">
+          <img src="images/icon-analytics.svg" alt="Ikona analityki" />
+          <h3>Zaawansowana analityka</h3>
+          <p>Śledź zaangażowanie użytkowników i optymalizuj swoje strategie.</p>
+        </div>
+        
+        <div class="benefits">
+          <h3>Korzyści dla Twojego biznesu</h3>
+          <ul>
+            <li>Zwiększone zaangażowanie użytkowników</li>
+            <li>Lepsza retencja klientów</li>
+            <li>Wzrost lojalności wobec marki</li>
+            <li>Efektywniejsza komunikacja z klientami</li>
+          </ul>
+        </div>
       </section>
     </main>
     <footer>

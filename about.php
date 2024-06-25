@@ -23,32 +23,31 @@
       </nav>
     </header>
     <main id="main-about">
-
-  <h2>O nas</h2>
-  <p>Huddle na nowo wyobraża sobie sposób, w jaki budujemy społeczności. Nasza misja to tworzenie autentycznych połączeń między ludźmi, umożliwiając im angażowanie się w wartościowe dyskusje i dzielenie się swoimi doświadczeniami.</p>
-  
-  <h3>Nasze Wartości</h3>
-  <ul>
-    <li><strong>Autentyczność:</strong> Wierzymy w szczere i otwarte rozmowy.</li>
-    <li><strong>Zaangażowanie:</strong> Tworzymy przestrzeń, w której każdy głos ma znaczenie.</li>
-    <li><strong>Innowacyjność:</strong> Stale rozwijamy nasze narzędzia, aby sprostać zmieniającym się potrzebom społeczności.</li>
-  </ul>
-  
-  <h3>Nasz Zespół</h3>
-  <p>Nasza siła tkwi w ludziach, którzy tworzą Huddle. Poznaj nasz zespół:</p>
-  <div class="team">
-    <div class="team-member">
-      <img src="images/JanKowalski.png" alt="Zdjęcie członka zespołu">
-      <h4>Jan Kowalski</h4>
-      <p>Założyciel i CEO</p>
-    </div>
-    <div class="team-member">
-      <img src="images/AnnaNowak.png" alt="Zdjęcie członka zespołu">
-      <h4>Anna Nowak</h4>
-      <p>Dyrektor ds. Marketingu</p>
-    </div>
-  </div>
-</section>
+        <h2>O nas</h2>
+        <p>Huddle na nowo wyobraża sobie sposób, w jaki budujemy społeczności. Nasza misja to tworzenie autentycznych połączeń między ludźmi, umożliwiając im angażowanie się w wartościowe dyskusje i dzielenie się swoimi doświadczeniami.</p>
+        
+        <h3>Nasze Wartości</h3>
+        <ul>
+          <li><strong>Autentyczność:</strong> Wierzymy w szczere i otwarte rozmowy.</li>
+          <li><strong>Zaangażowanie:</strong> Tworzymy przestrzeń, w której każdy głos ma znaczenie.</li>
+          <li><strong>Innowacyjność:</strong> Stale rozwijamy nasze narzędzia, aby sprostać zmieniającym się potrzebom społeczności.</li>
+        </ul>
+        
+        <h3>Nasz Zespół</h3>
+        <p>Nasza siła tkwi w ludziach, którzy tworzą Huddle. Poznaj nasz zespół:</p>
+        <div class="team">
+          <div class="team-member">
+            <img src="images/JanK.png" alt="Zdjęcie członka zespołu">
+            <h4>Jan Kowalski</h4>
+            <p>Założyciel i CEO</p>
+          </div>
+          <div class="team-member">
+            <img src="images/AnnaN.png" alt="Zdjęcie członka zespołu">
+            <h4>Anna Nowak</h4>
+            <p>Dyrektor ds. Marketingu</p>
+          </div>
+        </div>
+      </section>
     </main>
     <footer>
     <p class="footer__huddle">&copy; <?php echo date("Y"); ?> Huddle. All rights reserved.</p>

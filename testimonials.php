@@ -25,7 +25,34 @@
     <main id="main-testimonials">
       <section id="testimonials" class="page__sections">
         <h2>Opinie klientów</h2>
-        <p>Prezentuje opinie zadowolonych klientów wraz z ich zdjęciami lub logotypami dla większej wiarygodności.</p>
+        
+        <div class="testimonial">
+          <img src="images/MarekP.png" alt="Zdjęcie klienta" class="testimonial-avatar" />
+          <div class="testimonial-content">
+            <h3>Marek Poręba</h3>
+            <p class="testimonial-company">CEO, Firma QWERTY</p>
+            <p>"Huddle zrewolucjonizował sposób, w jaki komunikujemy się z naszymi klientami. Nasza społeczność jest teraz bardziej zaangażowana niż kiedykolwiek wcześniej."</p>
+            <div class="testimonial-rating">
+              <span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span>
+            </div>
+          </div>
+        </div>
+        
+        <div class="testimonial">
+          <img src="images/KrzysztofT.png" alt="Zdjęcie klienta" class="testimonial-avatar" />
+          <div class="testimonial-content">
+            <h3>Krzysztof Tarnowski</h3>
+            <p class="testimonial-company">Marketing Manager, Startup WERKT</p>
+            <p>"Dzięki Huddle nasza firma zyskała lojalną bazę klientów. Narzędzia do analizy pomagają nam stale ulepszać nasze strategie."</p>
+            <div class="testimonial-rating">
+              <span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">☆</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-cta">
+          <h3>Dołącz do zadowolonych klientów Huddle</h3>
+          <a href="contact.php" class="btn">Wypróbuj za darmo</a>
+        </div>
       </section>
     </main>
     <footer>

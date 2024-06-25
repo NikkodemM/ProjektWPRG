@@ -25,15 +25,21 @@
     <main id="main-contact">
       <section id="contact" class="page__sections">
         <h2>Kontakt</h2>
-        <form action="submit_form.php" method="post">
-          <label for="name">Imię:</label>
-          <input type="text" id="name" name="name" required>
-          <label for="email">Email:</label>
-          <input type="email" id="email" name="email" required>
-          <label for="message">Wiadomość:</label>
-          <textarea id="message" name="message" required></textarea>
-          <button type="submit">Wyślij</button>
-        </form>
+        <div class="contact-container">
+          <div class="contact-info">
+            <h3>Skontaktuj się z nami</h3>
+            <p><i class="fas fa-map-marker-alt"></i> 123 Main Street, City, Country</p>
+            <p><i class="fas fa-phone"></i> +1 234 567 890</p>
+            <p><i class="fas fa-envelope"></i> info@huddle.com</p>
+          </div>
+          <form id="contact-form" class="contact-form">
+            <input type="text" name="name" placeholder="Imię i nazwisko" required>
+            <input type="email" name="email" placeholder="Adres e-mail" required>
+            <input type="text" name="subject" placeholder="Temat" required>
+            <textarea name="message" placeholder="Twoja wiadomość" required></textarea>
+            <button type="submit" class="btn">Wyślij wiadomość</button>
+          </form>
+        </div>
       </section>
     </main>
     <footer>
