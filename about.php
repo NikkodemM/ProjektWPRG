@@ -50,15 +50,14 @@
       </section>
     </main>
     <footer>
-    <p class="footer__huddle">&copy; <?php echo date("Y"); ?> Huddle. All rights reserved.</p>
-      <p>
-      <ul class="list__links">
-        <li><a class="footer__links facebook" href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-        <li><a href="#" class="footer__links twitter"><i class="fa-brands fa-twitter"></i></a></li>
-        <li><a href="#" class="footer__links instagram"><i class="fa-brands fa-instagram"></i></a></li>
-      </ul>
-      </p>
-      
+        <p>&copy; <?php echo date('Y'); ?> Huddle. Wszelkie prawa zastrzeżone.</p>
+        <p>
+          <ul class="list__links">
+            <li><a href="https://www.facebook.com/"class="footer__links facebook"><i class="fa-brands fa-facebook-f"></i></a></li>
+            <li><a href="https://x.com/" class="footer__links twitter"><i class="fa-brands fa-twitter"></i></a></li>
+            <li><a href="https://www.instagram.com/" class="footer__links instagram"><i class="fa-brands fa-instagram"></i></a></li>
+          </ul>
+        </p>
     </footer>
   </body>
 </html>
